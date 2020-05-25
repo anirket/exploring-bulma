@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 </head>
 <body>
-
+<div class="container">
 <!-- hero -->
-<section class="hero is-primary">
+<section class="hero is-primary" >
     <div class="hero-body">
         <div class="block">
         <h2 class="title is-1">hello bulma</h2>
@@ -62,7 +62,7 @@
     <div class="button">lol</div>
     <div class="button is-active e">lol</div>
     <div class="button is-info">lol</div>
-    <div class="button is-success is-outlined      ">lol</div>
+    <div class="button is-success is-outlined  is-pulled-right   ">lodu</div>
     <div class="button is-small">lol</div>
     <div class="button is-large">lol</div>
     <div class="button is-medium">lol</div>
@@ -197,29 +197,213 @@
 <!-- messages end-->
 <!-- navbar -->
 <div class="block">
-    <nav class="navbar is-primary">
+    <nav class="navbar is-warning is-fixed-top ">
         <div class="navbar-brand">
-                <div class="navbar-item" >
-            <h2 class="title" style="font-weight: bold;">hello</h2>
-                </div>
-
-        </div>
-        <div class="navbar-menu is-active">
-            <div class="navbar-end">
-                <a href="#" class="navbar-item is-active">home</a>
-                <a href="#hei" class="navbar-item is-success">skills</a>
-                <a href="#" class="navbar-item">projects</a>
-                <a href="#" class="navbar-item">About me</a>
+            <span class="navbar-burger burger" style="margin-left: 0;">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div class="navbar-item ">
+                <h2 >hello</h2>
             </div>
+            <span class="navbar-burger burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+               
         </div>
+        <div class="navbar-menu  hello">
+            <div class="navbar-end">
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a href="" class="navbar-link">hello</a>
+                        <div class="navbar-dropdown">
+                            <div class="navbar-item">
+                                hii
+                            </div>
+                            <div class="navbar-item">
+                                hii
+                            </div>
+                            <div class="navbar-item">
+                                hii
+                            </div>
+                            <hr class="navbar-divider">
+                            <div class="navbar-item">
+                                hii
+                            </div>
+                        </div>
+           
+                </div>
+               
+            </div>
     </nav>
+
+</div>
+<!-- navbar ends -->
+<!-- side menu -->
+<div class="block">
+    <div class="menu">
+        <div class="menu-label">
+           label 1
+        </div>
+        <ul class="menu-list">
+            <li><a href="">content 1</a></li>
+            <li><a href="">content 2</a></li>
+            <li><a href="">content 3</a></li>
+            <li><a href="">content4</a></li>
+        </ul>
+        <div class="menu-label">
+            label 2
+         </div>
+         <ul class="menu-list">
+             <li><a href="">content 1</a>
+                <ul class="menu-list">
+                    <li><a href="">content 1</a></li>
+                    <li><a href="">content 2</a></li>
+                    <li><a href="">content 3</a></li>
+                    <li><a href="">content4</a></li>
+                </ul>
+            </li>
+             <li><a href="">content 2</a></li>
+             <li><a href="">content 3</a></li>
+             <li><a href="">content4</a></li>
+         </ul>
+        </div>
+</div>
+<!-- side menu ends -->
+<!-- pagination -->
+<div class="pagination">
+        <a href="" class="pagination-previous" disabled>PREVIOUS</a>
+        <a href="" class="pagination-next">NEXT</a>
+    <ul class="pagination-list">
+       <li><a href="#" class="pagination-link is-current">1</a></li>
+       <li><a href="" class="pagination-link">2</a></li>
+       <li><a href="" class="pagination-link">3</a></li>
+       <li><a href="" class="pagination-link">4</a></li>
+    </ul>
+</div>
+<!-- pagination -->
+<!-- level -->
+<div class="block">
+    <div class="level">
+        <div class="level-left">
+            <p class="level-item"><a href=""><strong>hello</strong></a></p>
+            <p class="level-item"><a href="">hii</a></p>
+            <p class="level-item"><a href="">bakwas</a></p>
+            <p class="level-item"><a href="">loco</a></p>
+        </div>
+        <div class="level-right">
+            <p class="level-item">
+                <div class="field">
+                    <p class="control">
+                        <input type="text" class="input"placeholder="type your name">
+                    </p>
+                </div>
+            </p>
+        </div>
+    </div>
 </div>
 
+<!-- level ends -->
+<!-- form -->
+<div class="block">
+    <form >
+        <div class="field">
+            <label  class="label">Name</label>
+            <input class="input is-primary"></input>
+        </div>
+    </form>
+</div>
+<!-- form ends -->
+<!-- dropdown -->
+<div class="block">
+    <div class="field">
+        <label class="label">hello</label>
+      <div class="control">
+          <span class="select">
+              <select >
+                  <option value="">hello</option>
+                  <option value="">njdj</option>
+                  <option value="">cjkeiu</option>
+                  <option value="">dsljweuj</option>
+              </select>
+          </span>
+      </div>
+    </div>
+</div>
+<!-- dropdown ends-->
+<!-- textarea -->
+<div class="field">
+    <label for="" class="label">hello</label>
+    <p class="control">
+        <textarea  class="textarea" placeholder="hello"></textarea>
+    </p>
+</div>
 
-
-
-
-<!-- navbar ends -->
-
+<!-- textarea ends -->
+<!-- attached -->
+<div class="block">
+    <div class="field has-addons">
+        <p class="control">
+            <span class="select">
+                <select >
+                    <option value="">rup</option>
+                    <option value="">dollars</option>
+                    <option value="">euros</option>
+                    <option value="">yen</option>
+                </select>
+            </span>
+        </p>
+        <p class="control">
+            <input type="text" class="input" placeholder="type amount...">
+        </p>
+        <p class="conrol">
+            <a href="" class="button is-info">pay</a>
+        </p>
+    </div>
+</div>
+<!-- attached ends -->
+<!-- table -->
+<div class="block">
+<table class="table is-narrow" style="width: 100%;">
+    <thead>
+        <tr>
+            <th>name</th>
+            <th>phno</th>
+            <th>dd</th>
+            <th>dd</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>aniket</td>
+            <td>9765</td>
+            <td>eduyged</td>
+            <td>ewnuhiu</td>
+        </tr>
+        <tr class="is-selected" >
+            <td>aniket</td>
+            <td>9765</td>
+            <td>eduyged</td>
+            <td>ewnuhiu</td>
+        </tr>
+        <tr>
+            <td>aniket</td>
+            <td>9765</td>
+            <td>eduyged</td>
+            <td>ewnuhiu</td>
+        </tr>
+        <tr>
+            <td>aniket</td>
+            <td>9765</td>
+            <td>eduyged</td>
+            <td>ewnuhiu</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+<!-- table ends -->
+</div>
 </body>
 </html>
